@@ -40,7 +40,7 @@ On running into all the challenges mentioned above, we read relavant articles, d
 Transfering data, though made simple using hyperlane, is a very powerful tool. We are proud to make use of this to make the platform available across various chains.
 
 ### Putting proposal metadata on IPFS
-Proposal NFT is put on IPFS/ piniata submarine. We decided not to put user comments on chain to save gas fees. even if the implementation didn't make it cross 
+Proposal NFT is put on IPFS/ piniata submarine. We decided not to put user comments on chain to save gas fees. even if the implementation didn't make it cross we were supposedly adding a pay to earn games and had a slot machine emodel on.
 
 
 ### UI/UX Design
