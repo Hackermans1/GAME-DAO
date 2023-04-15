@@ -125,6 +125,13 @@ export default function Home() {
       console.error(err);
     }
   };
+  /*const[a, seta] = useState(false); 
+  const jpo =  () => {
+    seta(true);
+    if(seta){
+      //link a page here
+
+    }
 
   /*
     renderButton: Returns a button based on the state of the dapp
@@ -139,17 +146,10 @@ export default function Home() {
         );
       } else if (loading) {
         return <button className={styles.button}>Loading...</button>;
-      } else {
-        return (
-          <button onClick={addAddressToWhitelist} className={styles.button}>
-            Join the Whitelist
-          </button>
-        );
-      }
-    } else {
+      }  else {
       return (
         <button onClick={connectWallet} className={styles.button}>
-          Connect your wallet
+          JOIN OUR DAO
         </button>
       );
     }
@@ -159,7 +159,7 @@ export default function Home() {
     // if wallet is not connected, create a new instance of Web3Modal and connect the MetaMask wallet
     if (!walletConnected) {
       web3Modal = new Web3Modal({
-        network: "rinkeby",
+        network: "sepolia",
         providerOptions: {},
         disableInjectedProvider: false,
       });
@@ -170,15 +170,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Whitelist Dapp</title>
+        <title>GAMERS DAO </title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to A GAMERS PARADISE</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+            Its a gaming platform where you can play games and earn crypto and also can interract with Game Developers.
           </div>
           <div className={styles.description}>
             {numberOfWhitelisted} have already joined the Waitlist
@@ -191,7 +191,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by Sencea
       </footer>
     </div>
   );
