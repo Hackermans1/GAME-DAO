@@ -2,6 +2,7 @@
 
 Project was implemented for *Hack It Sapiens HACKATHON*
 
+![alt](https://github.com/TeamRaptor22/GAME-DEV-DAO/blob/daef4ddddf2521575d021bd151221bd7737ef254/Screenshot%202023-04-16%20012830.png)
 ## Inspiration
 
 The best way to grow a community is to engage with it.DAOs, or Decentralized Autonomous Organizations, are decentralized organizations that operate based on pre-programmed rules encoded on a blockchain. DAOs have the potential to revolutionize the gaming industry by providing a transparent and secure way to manage in-game assets, enable community-driven decision-making, and ensure fairness in gameplay. <br>
@@ -24,17 +25,38 @@ While the normal player will not be able to get divedends , but is able to push 
 
 ## IMPLEMENTATION OF TOKEN GAITING:
  Which uses Pinata and leverages *IPFS* , to verify whereby communities can provide exclusive access to spaces, events, content, and communities to people who own specific digital assets in their wallet i.e NFTS.
+ 
+ ## Cross-Chain Asset Transfers
+Transfering data across chains can be tricky, but hyperlane solved the issue neatly. Though this issue was made easy, it was quite a learning experience as it was our first time trying to tranfer assests across chains. The docs and the discords channels were a great help. 
+
+### Who sends the proposal for governance?
+At the end of the week we want to push the top proposal on chain. We had to decide whether to push it for governance automatically or allow users to do it at the end of the week themselves. we tried to use chainlink keepers but that wasnt possible due to some deprecation issue
+
+## Accomplishments that we're proud of
+
+On running into all the challenges mentioned above, we read relavant articles, documentations and other literature for days, and finally built a working solution!
+
+### Cross-chain Asset Transfer
+Transfering data, though made simple using hyperlane, is a very powerful tool. We are proud to make use of this to make the platform available across various chains.
+
+### Putting proposal metadata on IPFS
+Proposal NFT is put on IPFS/ piniata submarine. We decided not to put user comments on chain to save gas fees. even if the implementation didn't make it cross 
+
+
+### UI/UX Design
+We designed a web solution that is more intuitive to use and interact with for users belonging to both technical and non-technical backgrounds. <br><br>
 
 Apart from increasing exclusivity it also increases inclusivity between token holders, and allows project creators to grant access to content, events, and merch exclusively to token holders. 
 
 Token gating allows token holders to access special rewards. This acts as an honour for Game Devlopers and harbours trust in the community.
 <br> <br>
+
 ## How we built it
 
-![Architecture](https://raw.githubusercontent.com/alluringambiguous/Frontend-StrawPoll/master/architecture.png)
-*<div align="center"> DAO Architecture </div>*
 
 ## USING HYPERLANE FUNCTIONALITY:
 Hyperlane connects your applications across many blockchains. This allows users to interact with your application from the chain they're on. Reducing the amount of hoops they have to jump through just to get to your app. It's about abstracting away the complexity of navigating between chains, and letting you and your users simply focus on your app.
 
+##HOSTING IT ON REPLIT:
+worked 3-4 times than suddenly stopped doing so.
 
