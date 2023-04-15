@@ -1,0 +1,29 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "active": "pinata-ghost-storage",
+    "pinata-ghost-storage": {
+      "gatewayUrl": "https://yourgatewayurl.com",
+      "pinataKey": "YOUR PINATA API KEY",
+      "pinataSecret": "YOUR PINATA API SECRET"
+    }
+  },
+  
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "C:\\Users\\chatu\\repo\\connect4\\connect-four-ai\\Whitelist-Dapp\\token-gated-blog\\ghost-app\\content"
+  }
+}
